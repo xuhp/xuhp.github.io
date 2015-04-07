@@ -5,7 +5,7 @@ pygments: true
 paginate: 5
 permalink: /:title
 
-title: AsiaFE
-url: http://asiafe.github.io/
+title: 爱生活 * 爱前端
+url: http://xuhp.github.io/
 feed: /atom.xml
-author_info: <a href="http://asiafe.github.io/">AsiaFE</a>
+author_info: <a href="http://xuhp.github.io/">xuhp</a>
