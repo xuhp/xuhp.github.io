@@ -42,7 +42,7 @@ GitHub (https://github.com)  是一个面向开源及私有软件项目的托管
  
  Git使用基础 [http://www.open-open.com/lib/view/open1332904495999.html](http://www.open-open.com/lib/view/open1332904495999.html)
 
- Git Push 避免使用用户名和密码方法 [http://www.cnblogs.com/ballwql/p/3462104.html](http://www.cnblogs.com/ballwql/p/3462104.html)
+ Git Push 避免使用用户名和密码方法 [http://www.cnblogs.com/ballwql/p/3462104.html](http://www.cnblogs.com/ballwql/p/3462104.html ] 、[ http://blog.csdn.net/leejearl/article/details/38656713)
 
 ##3. 设置SSH建立计算机与github的链接
 
