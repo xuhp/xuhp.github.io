@@ -1,0 +1,11 @@
+auto: true
+
+markdown: rdiscount
+pygments: true
+paginate: 5
+permalink: /:title
+
+title: AsiaFE
+url: http://asiafe.github.io/
+feed: /atom.xml
+author_info: <a href="http://asiafe.github.io/">AsiaFE</a>
