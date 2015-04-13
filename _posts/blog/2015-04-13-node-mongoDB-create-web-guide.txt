@@ -1,12 +1,11 @@
 ---
 layout:     post
-title:      node+mongoDB建站指南
+title:      node+mongoDB建站攻略
 category: blog
 tags : [ node ,mongoDB]
 description: 感谢Scott的精彩视频（http://www.imooc.com/comment/75），以下是视频的学习笔记。
 ---
-
-
+[node+mongoDB建站攻略](https://github.com/xuhp/node_mogodb_create_web/wiki)
 
 
 
