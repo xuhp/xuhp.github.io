@@ -115,6 +115,10 @@ git clone git://git.kernel.org/pub/scm/git/git.git
 
  ![](https://raw.githubusercontent.com/AsiaFE/weekly-meeting/master/%E8%B5%84%E6%BA%90%E5%BA%93/20141106/09.png)
 
+**github 同步文件**
+
+git pull
+
 **github 删除文件**
 
 ```cpp
