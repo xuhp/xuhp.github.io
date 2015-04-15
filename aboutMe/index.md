@@ -7,7 +7,7 @@ layout: home
         <ul class="artical-cate">
             <li><a href="/"><span>Blog</span></a></li>
             <li style="text-align:center"><a href="/timeAxis"><span>时光轴</span></a></li>
-            <li class="on" style="text-align:right"><a href="/aboutMe"><span>个人简介</span></a></li>
+            <li class="on" style="text-align:right"><a href="/aboutMe"><span>About Me</span></a></li>
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
