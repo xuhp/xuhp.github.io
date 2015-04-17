@@ -6,18 +6,17 @@ tags :      [ node, MongoDB]
 description: MongoDban安装教程（window版）
 ---
 
-##MongoDB安装教程（window版）
-###下载
+##1. 下载
 在mongodb官网（http://www.mongodb.org/downloads ) 下载安装包。 
 
 ![下载地址](https://raw.githubusercontent.com/xuhp/xuhp.github.io/master/images/howToInstallMongoDB/01.png)
 
 我们在此选择windows的zip版本。（也可以选择MSI版本）
 
-###解压
+##2. 解压
 解压到特定的目录下 。例如： F:/mongodb 
 
-###创建数据库文件的存放位置
+##3. 创建数据库文件的存放位置
 
 例如：F:/mongodb/data/db
 
@@ -27,7 +26,7 @@ description: MongoDban安装教程（window版）
 
 启动mongodb服务之前必须要创建数据库文件的存放目录，否则命令不会自己主动创建，并且不能启动成功。默认目录路径为c:data/db，使用系统默认目录路径时，启动服务无需加--dbpath参数说明，但目录还要手工创建。
 
-###启动mongodb服务
+##4. 启动mongodb服务
 
 打开cmd命令行，进入F:/mongodb/bin文件夹
 
@@ -39,7 +38,7 @@ mongod.exe --dbpath F:/mongodb/data/db
 
 ![在浏览器中访问](https://raw.githubusercontent.com/xuhp/xuhp.github.io/master/images/howToInstallMongoDB/04.png)
 
-##将MongoDB服务器作为Windows服务器运行
+##5. 将MongoDB服务器作为Windows服务器运行
 这样每次启动都非常不方便，
 
 请注意，你必须有**管理员权限**才能运行下面的命令。执行以下命令将MongoDB服务器作为Windows服务运行：
@@ -62,7 +61,7 @@ F:\mongodb\bin>mongod --logpath "F:\mongodb\logs\mongodb.log" --logappend --dbpa
 如何打开本地服务管理器  WIN+R   services.msc
 
 
-###mongodb后台管理shell
+##6. mongodb后台管理shell
 MongoDB Shell 是MongoDB自带的交换式 Javascript shell ，用来对MongoDB进行操作和管理的交互式环境。
 
 当你进入到MongoDB后台后，他会默认链接到test文档（数据）
@@ -74,7 +73,7 @@ db命令可以显示当前操作的文档
 ![mongodb后台管理shell](https://raw.githubusercontent.com/xuhp/xuhp.github.io/master/images/howToInstallMongoDB/06.png)
 
 
-###参考文章
+##7. 参考文章
 
 [MongoDB在window下的安装](http://www.cnblogs.com/mfrbuaa/p/4262883.html)
 
