@@ -76,11 +76,12 @@ db命令可以显示当前操作的文档
 
 ###参考文章
 
-http://www.cnblogs.com/mfrbuaa/p/4262883.html
+[MongoDB在window下的安装](http://www.cnblogs.com/mfrbuaa/p/4262883.html)
 
-http://www.w3cschool.cc/mongodb/mongodb-window-install.html
+[window平台安装 MongoDB](http://www.w3cschool.cc/mongodb/mongodb-window-install.html)
 
-http://www.cnblogs.com/angelasp/p/4323636.html
+[Windows8.1下安装NoSQL-- mongodb安装使用](http://www.cnblogs.com/angelasp/p/4323636.html)
+
 
 
 
