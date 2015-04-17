@@ -16,12 +16,12 @@ layout: home
 		
         {% for post in site.categories.blog %}
 		<article>
-			<h3 class="year">{{ post.date | date: "%Y" }}</h3>
+			<!-- <h3 class="year">{{ post.date | date: "%Y" }}</h3> -->
 			<section>
 				<span class="point-time "></span>
-				<time datetime="{{ post.date | date: "%m" }}-{{ post.date | date: "%d" }}">
+				<time datetime="{{ post.date | date: "%Y" }}-{{ post.date | date: "%m" }}-{{ post.date | date: "%d" }}">
 
-				<span>{{ post.date | date: "%m" }}月{{ post.date | date: "%d" }}日</span>
+				<span>{{ post.date | date: "%Y" }}年{{ post.date | date: "%m" }}月{{ post.date | date: "%d" }}日</span>
 				<span></span>
 				</time>
 				<aside>
