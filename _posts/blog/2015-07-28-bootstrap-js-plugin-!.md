@@ -2,7 +2,7 @@
 layout: post
 title: bootstrap插件之前加 "!" 是什么意思？
 category: blog
-tags : 
+tags : [js]
 description: 
 ---
 
