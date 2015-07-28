@@ -6,7 +6,7 @@ tags : [js]
 description: 在阅读 bootstrap 插件时发现每个插件的的前面都会有一个 "+" 号 —— +function ($) {}(jQuery)， 那么这个加号有什么作用呢？如果没有加号会怎么样？是否有其他的写法？
 ---
 
-## 1如果没有加号会怎样
+## 1. 如果没有加号会怎样
 
 在阅读 bootstrap 插件时发现每个插件的的前面都会有一个 "+" 号 —— +function ($) {}(jQuery)，为什么要加这个加号，如果将加号去掉会怎么样？比如下面的代码：
 
@@ -16,7 +16,7 @@ description: 在阅读 bootstrap 插件时发现每个插件的的前面都会�
 
 这里涉及了函数声明和函数表达式的概念。
 
-## 2函数声明、函数表达式
+## 2. 函数声明、函数表达式
  
 定义函数有以下三种方式：
 
@@ -24,7 +24,7 @@ description: 在阅读 bootstrap 插件时发现每个插件的的前面都会�
 2. 函数表达式   (Function Expression)
 3. 通过调用new  Function 返回
 
-###2.1 函数声明
+###2.1. 函数声明
 	
 	add(3,4);
 
@@ -35,14 +35,14 @@ description: 在阅读 bootstrap 插件时发现每个插件的的前面都会�
 1. 如果函数中没有返回值则默认返回 undefined
 2. 函数声明会在预执行阶段解析，所以一个函数可以再代码的任何地方声明
 
-###2.2 函数表达式
+###2.2. 函数表达式
 
 	var fun = function(name){
 		alert(name);
 	}
 	fun('xuhp')
 
-####2.3 'function' 关键字什么时候用作 表达式，什么时候又用作 声明？
+####2.3. 'function' 关键字什么时候用作 表达式，什么时候又用作 声明？
 
 当js解析器看到function出现在 main code flow ，function被认为是声明。
 
@@ -72,7 +72,7 @@ description: 在阅读 bootstrap 插件时发现每个插件的的前面都会�
 	(function(){alert('1')})()        // undefined
 	(function(){alert('1')}())        // undefined
 
-##参考文章
+##4. 参考文章
 
 [函数：声明和表达式](http://www.cnblogs.com/yuzhongwusan/archive/2012/01/30/2331693.html)
 
