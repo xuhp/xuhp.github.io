@@ -6,60 +6,51 @@ tags : [js]
 description: 在阅读 bootstrap 插件时发现每个插件的的前面都会有一个 "+" 号 —— +function ($) {}(jQuery)， 那么这个加号有什么作用呢？如果没有加号会怎么样？是否有其他的写法？
 ---
 
-## 如果没有加号会怎样
+## 1如果没有加号会怎样
 
 在阅读 bootstrap 插件时发现每个插件的的前面都会有一个 "+" 号 —— +function ($) {}(jQuery)，为什么要加这个加号，如果将加号去掉会怎么样？比如下面的代码：
 
 	function demo(){ alert(1) }()  // Unexpected token
 
-这是一个函数声明，直接调用就会报错。如果需要调用可以用如下的方法：
+这是一个函数声明，直接调用就会报错。
 
-	demo()
+这里涉及了函数声明和函数表达式的概念。
 
-现在这里涉及了函数声明和函数表达式的概念。
-
-## 函数声明、函数表达式
+## 2函数声明、函数表达式
  
-定义函数有一下三种方式：
+定义函数有以下三种方式：
 
 1. 函数声明     (Function Declaration)
 2. 函数表达式   (Function Expression)
 3. 通过调用new  Function 返回
 
-###函数声明
-
-**案例**
+###2.1 函数声明
 	
 	add(3,4);
 
 	function add(a, b){
 		return a + b;
 	}
-	
-
-**重要知识点**
 
 1. 如果函数中没有返回值则默认返回 undefined
 2. 函数声明会在预执行阶段解析，所以一个函数可以再代码的任何地方声明
 
-###函数表达式
-
-**案例**
+###2.2 函数表达式
 
 	var fun = function(name){
 		alert(name);
 	}
 	fun('xuhp')
 
-####'function' 关键字什么时候用作 表达式，什么时候又用作 声明？
+####2.3 'function' 关键字什么时候用作 表达式，什么时候又用作 声明？
 
 当js解析器看到function出现在 main code flow ，function被认为是声明。
 
 当 function 作为语句(statement)的一部分出现的，都会是表达式。
 
-在function前面添加 + 是将函数声明转化为函数表达式的一种方式。
+> 在function前面添加 + 是将函数声明转化为函数表达式的一种方式。
 
-##如何将函数声明转换为函数表达式
+##3. 如何将函数声明转换为函数表达式
 
 如何将函数声明转换为函数表达式，就是如何让 js 解析器将 funcition 当做语句的一部分。
 
@@ -80,7 +71,6 @@ description: 在阅读 bootstrap 插件时发现每个插件的的前面都会�
 
 	(function(){alert('1')})()        // undefined
 	(function(){alert('1')}())        // undefined
-
 
 ##参考文章
 
