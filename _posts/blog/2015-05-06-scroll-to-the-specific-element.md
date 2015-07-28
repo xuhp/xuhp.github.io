@@ -2,7 +2,7 @@
 layout:     post
 title:      如何滚动实现文档中的某个元素可见
 category:   blog
-tags :      [js]
+tags :      [js，应用]
 description:在项目中我们经常会碰到这样的问题：form表单验证，如果表单数据很多（超过一屏），校验时就需要定位到报错元素的位置。这时我们就需要滚动实现文档中的错误元素可见。
 ---
 
@@ -74,6 +74,7 @@ pageXOffset和pageYOffset支持IE9+，scrollLeft和scrollTop在所有浏览器�
 ##4. 参考文章
 
 《JavaScript权威指南》 第15章 脚本化文档
+
 
 
 
