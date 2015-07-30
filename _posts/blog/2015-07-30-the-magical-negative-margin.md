@@ -3,8 +3,9 @@ layout:     post
 title:      神奇的负边距
 category:   blog
 tags :      [css、margin]
-description:负边距有什么作用？负边距能产生什么效果？利用这些效果我们能做什么？就让我们一起进行探索吧。
+description: 负边距有什么作用？负边距能产生什么效果？利用这些效果我们能做什么？就让我们一起进行探索吧。
 ---
+
 
 ##什么是margin
 
