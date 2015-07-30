@@ -21,8 +21,8 @@ margin（外边距）：是标签和标签之间的空白，通俗的讲就是�
 > 以上图片主要针对于element的 display 属性为 block 或 inline-block,
 
 
-<p data-height="268" data-theme-id="0" data-slug-hash="zGMeGE" data-default-tab="result" data-user="xuhp" class='codepen'>See the Pen <a href='http://codepen.io/xuhp/pen/zGMeGE/'>zGMeGE</a> by 徐华平 (<a href='http://codepen.io/xuhp'>@xuhp</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<a class="jsbin-embed" href="http://jsbin.com/wahelirari/1/embed?html,css,output">JS Bin on jsbin.com</a>
+<script src="http://static.jsbin.com/js/embed.min.js?3.34.1"></script>
 
 
 ##
