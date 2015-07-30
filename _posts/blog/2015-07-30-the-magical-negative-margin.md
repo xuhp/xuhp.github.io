@@ -6,8 +6,23 @@ tags :      [css、margin]
 description:负边距有什么作用？负边距能产生什么效果？利用这些效果我们能做什么？就让我们一起进行探索吧。
 ---
 
-##什么是负边距
+##什么是margin
 
+margin（外边距）：是标签和标签之间的空白，通俗的讲就是框与其他元素的距离。
+
+	margin:10px -20px 30px 40px;
+
+当目标元素有周围有兄弟元素时，就是与兄弟元素之间的距离
+
+在正常文档流（没有float）中，负边距的标下如下图所示：
+
+![在正常文档流中的负边距](https://raw.githubusercontent.com/xuhp/xuhp.github.io/master/images/theMagicalNegativeMargin/margin-motion.gif)
+
+> 以上图片主要针对于element的 display 属性为 block 或 inline-block,
+
+
+<p data-height="268" data-theme-id="0" data-slug-hash="zGMeGE" data-default-tab="result" data-user="xuhp" class='codepen'>See the Pen <a href='http://codepen.io/xuhp/pen/zGMeGE/'>zGMeGE</a> by 徐华平 (<a href='http://codepen.io/xuhp'>@xuhp</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 
 ##
