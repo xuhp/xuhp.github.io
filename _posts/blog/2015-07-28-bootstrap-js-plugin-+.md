@@ -74,7 +74,7 @@ description: 在阅读 bootstrap 插件时发现每个插件的的前面都会�
 
 ##4. 参考文章
 
-[为什么function a(b){alert(b)}(1) 不会报错](为什么function a(b){alert(b)}(1) 不会报错)
+[为什么function a(b){alert(b)}(1) 不会报错](http://segmentfault.com/q/1010000003028413)
 
 [函数：声明和表达式](http://www.cnblogs.com/yuzhongwusan/archive/2012/01/30/2331693.html)
 
