@@ -7,7 +7,7 @@ description: 负边距有什么作用？负边距能产生什么效果？利用�
 ---
 
 
-##负边距能产生什么效果
+##1. 负边距能产生什么效果
 
 margin（外边距）：是标签和标签之间的空白，通俗的讲就是边框与其他元素的距离。
 
@@ -39,7 +39,7 @@ margin（外边距）：是标签和标签之间的空白，通俗的讲就是�
 
 通过以上三条结论，就可以开始神奇的负边距之旅了。
 
-## 去除列表右边距
+##2. 去除列表右边距
 
 <a class="jsbin-embed" href="http://jsbin.com/jelona/embed?html,css,output">JS Bin on jsbin.com</a>
 
@@ -47,7 +47,7 @@ margin（外边距）：是标签和标签之间的空白，通俗的讲就是�
 
 wrap 元素的宽度为 460px，4个 li 元素需要 100*4 + 20*4 = 480px,才能在一行排列。 我们使用了第三条结论，给 ul 增加了负 20px 的右边距，ul的宽度就增加了 20px, 4个li元素就刚好能在一行显示。
 
-## 去除最后表格最后一行的 border-bottom
+##3. 去除最后表格最后一行的 border-bottom
 
 <a class="jsbin-embed" href="http://jsbin.com/vomuhe/embed?html,css,output">JS Bin on jsbin.com</a>
 
@@ -55,11 +55,18 @@ wrap 元素的宽度为 460px，4个 li 元素需要 100*4 + 20*4 = 480px,才能
 
 这里应用了结论二，并且使用 overflow:hidden 把超出父元素的部分隐藏了。 
 
+##4. 负边距自适应布局
+
+<a class="jsbin-embed" href="http://jsbin.com/gufisa/embed?html,css,output">JS Bin on jsbin.com</a>
+
+**剖析**
+
+这里是用了结论二，给 content 设置了负的右边距，其随后的 side 元素就覆盖到了content 元素上，为了让 content 里面的内容保持可见，对 main 设置了padding-left。
 
 
+> 如果想了解更多可以查看参考文档中的内容。
 
-
-##参考文档
+##5. 参考文档
 
 [The Definitive Guide to Using Negative Margins](http://www.smashingmagazine.com/2009/07/the-definitive-guide-to-using-negative-margins/)
 
