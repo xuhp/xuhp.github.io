@@ -13,7 +13,7 @@ margin（外边距）：是标签和标签之间的空白，通俗的讲就是�
 
 	margin:10px -20px 30px 40px;
 
-当目标元素有周围有兄弟元素时，就是与兄弟元素之间的距离，没有兄弟元素就是与父元素的之间的距离。如下代码所示：
+当目标元素周围有兄弟元素时，就是与兄弟元素之间的距离，没有兄弟元素就是与父元素的之间的距离。如下代码所示：
 
 <a class="jsbin-embed" href="http://jsbin.com/xecugaxumo/1/embed?html,css,output">JS Bin on jsbin.com</a>
 
