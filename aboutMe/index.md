@@ -14,8 +14,9 @@ layout: home
 
         <div class="artical-list archive">
 					<h3>所属公司</h3>
-					<p>亚信科技（成都）有限公司</P>
+					<p>亚信科技（杭州）有限公司</P>
 					<h3>联系方式</h3>
+					<p>Phone：18069842641</P>
 					<p>QQ：1187173685</P>
 				</div>
     </div>
